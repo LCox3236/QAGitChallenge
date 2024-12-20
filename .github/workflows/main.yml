@@ -10,4 +10,4 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - name: run-script-file
-          run: ./script.sh
+          run: pwd
