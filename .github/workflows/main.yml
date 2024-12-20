@@ -10,4 +10,4 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - name: run-script-file
-          run: ./script2.sh
+        - run:  bash scripts/script.sh
