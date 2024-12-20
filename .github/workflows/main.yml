@@ -9,6 +9,8 @@ jobs:
   list-job:
       runs-on: ubuntu-latest
       steps:
+        - uses: actions/checkout@v4
         - name: run-script-file
+        
           shell: bash
           run:  ./script.sh
