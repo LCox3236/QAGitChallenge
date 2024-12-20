@@ -11,4 +11,4 @@ jobs:
       steps:
         - name: run-script-file
           shell: bash
-          run:  bash scripts/script.sh
+          run:  ./script.sh
